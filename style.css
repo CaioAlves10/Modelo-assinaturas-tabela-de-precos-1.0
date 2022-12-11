@@ -15,7 +15,7 @@ body {
 
 header {
     text-align: center;
-    margin: 50px 0;
+    margin: 20px 0;
 }
 
 #titulo {
@@ -30,7 +30,7 @@ header {
     font-size: 60px;
 }
 
-/* cards */
+/* Cards */
 
 section {
     display: flex;
@@ -39,8 +39,18 @@ section {
 
 section div.cards {
     background: #FFFFFF;
-    width: 21%;
-    height: 500px;
+    width: 20%;
+    height: 450px;
+    border-radius: 8px;
+    text-align: center;
+
+    margin-top: 45px;
+}
+
+.card-02 {
+    background: #FFFFFF;
+    width: 20%;
+    height: 495px;
     border-radius: 8px;
     text-align: center;
 }
@@ -63,27 +73,17 @@ section div.cards {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
 
-    margin: 30px 0;
+    margin: 30px 0 20px;
 }
 
-.emojiHappy {
+.emoji {
     width: 55px;
 }
 
-.icons-texts div p {
-    font-family: 'Inter', sans-serif;
-    font-size: 18px;
-    color: #000;
-}
-
-.icons-texts {
-    display: flex;
-    flex-direction: column;
-
-    margin: 0 30px;
-    margin-bottom: 30px;
+.emoji:hover {
+    width: 60px;
 }
 
 .box-icon-text {
@@ -107,11 +107,95 @@ section div.cards {
     font-size: 18px;
     color: #D93939;
     text-decoration: none;
-
-    padding: 0;
-    margin: 0;
 }
 
 .assineJa:hover {
     text-decoration: underline;
+}
+
+/* Card 01 */
+
+.icons-texts-card-01 div p {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #000;
+}
+
+.icons-texts-card-01 {
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 25px 20px;
+}
+
+/* Card 02 */
+
+.tituloAnual {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #182747;
+}
+
+.moneyCard02 {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    color: #000;
+}
+
+.assineJaButton {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #D93939;
+
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.assineJaButton:hover {
+    font-size: 19px;
+    padding: 11px;
+}
+
+/* Card 02 e Card 03 */
+
+.icons-texts-section div p {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #000;
+}
+
+.icons-texts-section {
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 25px 50px;
+}
+
+.justificarTexto {
+    text-align: justify;
+}
+
+.box-icon-text-1 {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    
+    margin-bottom: 10px;
+}
+
+#economize {
+    background: #647E68;
+    height: 45px;
+    border-radius: 8px 8px 0 0;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
